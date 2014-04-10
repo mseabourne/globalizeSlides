@@ -1,0 +1,159 @@
+<!-- views/index.html -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Revealer - Reveal.js multiplexer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="components/reveal.js/css/reveal.min.css">
+        <link rel="stylesheet" href="components/reveal.js/css/theme/default.css" id="theme">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+    <section data-id="d7453f852e7a651549462744b0d43326">
+        <h1>Internationalization</h1>
+<h1>and&nbsp;<br>Localization</h1>
+<div>
+        <br>
+    </div>
+<div>
+    <br>
+    </div>
+<div style="text-align: left; ">&nbsp; &nbsp;Mark Seabourne</div>
+<div style="text-align: left; ">&nbsp; &nbsp;Software Engineering Manager</div>
+<div style="text-align: left; ">&nbsp; &nbsp;Allrecipes - International (allrecipes.co.uk)</div>
+</section>
+<section data-id="c84d3aa4c9c66ca121725610db327f0c">
+    <h2>Me</h2>
+    <div>Manage development of 16 sites around the world.</div>
+    <div>C#&nbsp;</div>
+    <div>ASP.Net MVC&nbsp;</div>
+    <div>WCF Services</div>
+    <div>
+        <br>
+    </div>
+    <div>Javascript/JQuery</div>
+    <div>Twitter Bootstrap</div>
+    <div>SASS</div>
+    <div>Grunt</div>
+    <div>Responsive Design</div>
+    <div>
+        <br>
+    </div>
+    <div>NoSQL (Couchbase) &nbsp;and SQL Server</div>
+</section>
+<section data-id="9de7e624eadb343621a6d03f3b562be1">
+    <h2>Localize What?</h2>
+<div>
+    <br>
+    </div>
+<h3>Internationalization</h3>
+<div>
+<span style="text-align: start;">&nbsp;process of designing a software application so that it can&nbsp;</span>
+    <span style="text-align: start;">potentially</span>
+    <span style="text-align: start;">&nbsp;be adapted to various languages and regions without engineering changes</span>
+    <br>
+</div>
+<div>
+    <br>
+    </div>
+<h3>Localization</h3>
+<div>
+<span style="text-align: start;">adapting internationalized software for a&nbsp;</span>
+    <span style="text-align: start;">specific</span>
+    <span style="text-align: start;">&nbsp;region or language by adding&nbsp;</span>
+    <a href="http://en.wikipedia.org/wiki/Locale" title="Locale" style="background-image: none; text-align: start;">locale</a>
+    <span style="text-align: start;">-specific components and translating text</span>
+</div>
+<div>
+    <br>
+</div>
+</section>
+<section data-id="a6272adf59a2db6e62b2b964badd5b6a">
+    <h2>Why?</h2>
+<div>Much easier to do upfront then trying to adapt a mature site or application.</div>
+<div>
+    <br>
+</div>
+<div>Application doesn't need to be global. &nbsp;Multiple languages within the USA.</div>
+<div>
+<br>
+</div>
+<div>Easier for editorial to write copy.</div>
+<div>
+<br>
+</div>
+<div>Keep literals encapsulated and out of code and html.</div>
+</section>
+<section data-id="90b8fb1ce1a0860aaba25d5cf4208951">
+    <h2>What to consider</h2>
+<div>How is the current culture determined?</div>
+<div>Different fonts needed for some languages</div>
+    <div>Handling spacing and long text</div>
+    <div>Formatting dates, times, and numbers</div>
+    <div>&nbsp;Russian and Polish - different rules for plural words</div>
+    <div>US vs. JP - Formatting strings with counts. &nbsp;Ex. "Top 9 Reviews" vs. "9<span style="text-align: left;">のレシピ全てを見る »"</span>
+</div>
+<div>Right to left layouts</div>
+<div>Localizing content</div>
+</section>
+<section data-id="a1c5c18bfb033a5dfe2f94551ebfc434">
+    <h2>Demo</h2>
+    <div>Yeoman, Grunt, Globalize.js</div>
+    <div>
+        <br>
+    </div>
+    <div>Template</div>
+    <div>https://github.com/mseabourne/globalizeTemplate<br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>Working Demo</div>
+    <div>https://github.com/mseabourne/GlobalizeDemo<br>
+    </div>
+</section>
+<section data-id="d738d45a3a5dbacd24b28fe60837b79c">
+    <h2>What next</h2>
+    <div class="absolute-element" style="position: absolute; width: 914px; height: 414.2150537634409px; z-index: 4; left: 31px; top: 116px; max-height: none; max-width: none;">
+        <ol>
+            <li>
+                <span style="text-align: center;">Create a globalized site that allows the user to switch between two different languages.</span>
+            </li>
+            <li>
+                <span style="text-align: center;">Use the culture on the server to server localized html.</span>
+            </li>
+            <li>
+                <span style="text-align: center;">Create a service that uses the culture to return localized content.</span>
+            </li>
+            <li>
+                <span style="text-align: center;">Only load cultures that are needed on the client.</span>
+            </li>
+            <li>
+                <span style="text-align: center;">Angular? &nbsp;Try Angular translate:</span>
+            </li>
+        </ol>
+        <span>https://github.com/angular-translate/angular-translate</span>
+        <br>
+    </div>
+    <div class="absolute-element" style="position: absolute; width: 809px; height: 46px; z-index: 4; left: -85px; top: 621px;">
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+</section>
+</div>
+</div>
+        </div>
+        <script src="components/reveal.js/js/reveal.min.js"></script>
+        <script type="text/javascript">
+            Reveal.initialize({history: true});
+        </script>
+    </body>
+</html>
+
+
+
+
